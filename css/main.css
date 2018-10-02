@@ -41,7 +41,7 @@ header h1 {
 
 nav {
     float: right;
-    padding: 75px 25px;
+    padding-top: 90px;
 }
 
 nav ul li{
@@ -51,9 +51,11 @@ nav ul li{
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     color: #828282;
-    padding-left: 80px;
+    padding-left: 10px;
+    font-weight: 500;
+    /* list-style-type: none; */
 }
 
 header h2 {
@@ -102,6 +104,10 @@ header h2 span {
 
 #work img {
     padding-bottom: 30px;
+}
+
+::after #work img {
+  opacity: 1.0;
 }
 
 #work h3 {
