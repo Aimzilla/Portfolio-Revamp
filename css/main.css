@@ -34,7 +34,7 @@ header {
 
 header h1 {
     padding: 65px 0 65px 25px;
-    color: #bbc085;
+    color: #99ab99;
     font-family: Lora, serif;
     font-size: 40px;
 }
@@ -92,9 +92,9 @@ header h2 span {
     padding-right: 50px;
 }
 
-/***WORK***/
+/***WORK**c4d0c4*/
 #work {
-  background-color: #f9ceb7;
+  background-color: #d7ddd7;
   text-align: center;
 }
 
@@ -181,6 +181,57 @@ header h2 span {
     padding-right: 48px;
 }
 
+.return-link {
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  color: grey;
+}
+
+.return-link a {
+  float: right;
+  margin-right: 30px;
+  color: grey;
+}
+
+.return-link2 a {
+  margin-top: 90px;
+  float: right;
+  margin-right: 30px;
+  color: grey !important;
+}
+
+.return-link3 a {
+  float: right;
+  margin-right: 30px;
+  text-decoration: underline !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  color: grey !important;
+  margin-top: 90px !important;
+}
+
+
+/*.return-link a:hover {
+  color: black;
+}*/
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+
 /***COMING SOON ***/
 .coming-soon {
   background: radial-gradient(circle, #FBB600, #DA5900);
@@ -196,58 +247,137 @@ position: absolute;
 }
 
 /*** RESUME ***/
+.resume {
+  background-color: #d7ddd7;
+  padding: 20px 0 40px 0;
+}
+
 .personal-info {
   text-align: center;
   color: black;
   margin-top: 15px;
+  font-weight: bold;
 }
 
 .name {
   font-size: 36px;
+  font-weight: bold;
+  line-height: 1.4em;
 }
 
 .phone {
   font-size: 22px;
+  line-height: 1.4em;
 }
 
-.email .linkedin .website {
-  font-size: 16px;
+.email, .linkedin, .website {
+  font-size: 18px;
+  line-height: 1.3em;
 }
 
 .section-header {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
+  line-height: 1.5em;
   text-align: center;
 }
 
-li .section-content {
+.section-content {
   text-align: center;
   list-style-type: none;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.experience-body {
+    margin: 0 70px 60px 70px;
 }
 
 .company {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   float: left;
+  font-weight: bold;
 }
 .date {
   text-align: right;
   float: right;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .location {
-  font-style: italic;
-  font-size: 14px;
+  font-size: 16px;
+  text-align: left;
+  clear: left;
 }
 
 .title {
   font-size: 16px;
+  text-align: left;
+  font-weight: bold;
 }
 
 .duties {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 15px;
+  list-style-type: square;
+  line-height: 1.2em;
+}
+
+/*PROJECT PORTFOLIO PAGE*/
+#projects-page {
+      height: 350px;
+      background: url(../img/hero-small.png);
+      background-size: cover;
+}
+
+#projects-page h1 {
+  padding: 25px 0 5px 20px;
+  color: #99ab99;
+  font-family: Lora, serif;
+  font-size: 42px;
+  margin-top: 0;
+
+}
+
+#projects-page p {
+  width: 605px;
+  font-family: Lora, serif;
+  font-size: 26px;
+  color: #9b9b9b;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+#map, #magic-ball, #lol-cat {
+  text-align: center;
+  margin-top: 0;
+}
+
+#map img, #magic-ball img, #lol-cat img {
+  max-height: 600px;
+  max-width: 500px;
+}
+
+#map {
+  background-color: #eaccbb;
+  padding: 15px 0 25px 0;
+}
+
+#magic-ball {
+  background-color: #d7ddd7;
+  padding: 15px 0 25px 0;
+}
+
+#lol-cat {
+  background-color: #ebebeb;
+  padding: 15px 0 25px 0;
+}
+
+.project-paragraph {
+  margin: 0 80px 20px 80px;
+  line-height: 1.4em;
+  font-size: 18px;
 }
