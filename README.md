@@ -1,2 +1,2 @@
 # Portfolio Revamp
-Landing page for future portfolio to display projects as I learn new (to me) technologies...
+Cleaning up my old portfolio page to be mobile and accessible.  May sneak in some jQuery refactoring, too.
