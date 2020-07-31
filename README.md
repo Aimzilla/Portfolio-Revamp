@@ -1,2 +1,2 @@
-# amy-landing-page
+# Portfolio Revamp
 Landing page for future portfolio to display projects as I learn new (to me) technologies...
